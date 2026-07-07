@@ -1,0 +1,13 @@
+# 依賴
+node_modules/
+
+# 打包暫存（index.html 已內嵌 bundle，不需另存）
+bundle.js
+dist/
+
+# 系統/編輯器
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+{
+  "name": "trading-toolkit",
+  "version": "1.0.0",
+  "description": "台股資金管理三合一計算器：單筆倉位、組合熱度、固定槓桿。純前端 React 單頁應用。",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/entry.jsx --bundle --minify --jsx=automatic --outfile=bundle.js"
+  },
+  "keywords": ["台股", "資金管理", "凱莉公式", "風險預算", "股票期貨", "計算器"],
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
